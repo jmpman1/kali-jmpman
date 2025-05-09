@@ -47,7 +47,7 @@ markup=none
 # The type defaults to "mem" if the instance is not specified.
 [memory]
 command=$SCRIPT_DIR/memory/memory
-separator=false
+separator=true
 interval=30
 
 # Disk usage
@@ -69,7 +69,7 @@ command=$SCRIPT_DIR/iface/iface
 instance=tun0
 interval=10
 color=#24d900
-separator=false
+separator=true
 
 #[wifi]
 #instance=wlp3s0
@@ -91,7 +91,7 @@ label=CPU
 command=$SCRIPT_DIR/cpu_usage/cpu_usage
 interval=1
 min_width=CPU 100.00%
-separator=false
+separator=true
 
 #[load_average]
 #label=LOAD
